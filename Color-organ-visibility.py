@@ -2,7 +2,8 @@
 # coding: utf-8
 
 #INSTALL DEPENDENCIES IF NOT ALREADY INSTALLED
-# pip install opencv-python numpy matplotlib PyWavelets
+#uncomment the line below the install dependencies if not already installed
+# pip install opencv-python numpy matplotlib PyWavelets 
 
 #IMPORT LIBRARIES
 import cv2
@@ -10,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #LOADING THE ORIGINAL .TIF IMAGE USING OPENCV
-image_path = "C://David//DYNAMIC_BIO-IMAGING_LAB//MICE_Project//Mouse2.tif"     #Replace with the path of your image
+image_path = "Mouse2.tif"     #Replace with the path of your image
 color_image = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
 
 #NORMALIZATION IF PIXEL VALUES EXCEED 255
