@@ -1,3 +1,7 @@
-This is a project to create an optimized imaging protocol for in-vivo optical imaging of internal organs.
-Classical image processing techniques were used.
-Image was processed in color. The image used is also attached
+This repository is our project for the paper "Transient optical clearing using absorbing molecules for ex-vivo and in-vivo imaging"
+We used classical image processing techniques to create an optimized imaging protocol for in-vivo optical imaging of internal organs. Details of the techniques can be found in our paper.
+
+Instructions:
+1. Download sample image and store image in the same location as code.
+2. Install required dependencies if not already installed:
+   
