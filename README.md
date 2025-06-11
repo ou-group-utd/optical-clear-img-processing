@@ -4,4 +4,4 @@ We used classical image processing techniques to create an optimized imaging pro
 Instructions:
 1. Download sample image and store image in the same location as code.
 2. Install required dependencies if not already installed:
-   
+   pip install opencv-python numpy matplotlib PyWavelets 
